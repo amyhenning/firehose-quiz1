@@ -1,7 +1,9 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Oxygen');
 
 body {
 	background-color: #d3d0c9;
+	font-family: 'Oxygen', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,32 +12,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: #d6c59a;
-    font-size: 32px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #d6c59a;
+  font-size: 36px;
+	font-family: 'Hammersmith One', sans-serif;
 }
 
 .navbar-light .navbar-text {
-    color: #1c840b;
+  color: #1c840b;
 }
 
 .navbar-text {
-    display: inline-block;
-    padding-top: .425rem;
-    padding-bottom: .425rem;
+  display: inline-block;
+  padding-top: .425rem;
+  padding-bottom: .425rem;
 }
 
 .BoxWithShadow {
-    background: #fff;
-    border: solid 1px #c6c5c5;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 2px 2px 2px 2px #c6c5c5;
-    -webkit-box-shadow: 2px 2px 2px 2px #c6c5c5;
-    box-shadow: 2px 2px 2px 2px #c6c5c5;
-    margin-top: 10px;
-    padding-top: 10px;
+  background: #fff;
+  border: solid 1px #c6c5c5;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 2px 2px #c6c5c5;
+  -webkit-box-shadow: 2px 2px 2px 2px #c6c5c5;
+  box-shadow: 2px 2px 2px 2px #c6c5c5;
+  margin-top: 10px;
+  padding-top: 10px;
 }
