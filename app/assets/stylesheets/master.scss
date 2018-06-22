@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Oxygen');
 
 body {
-	background-color: #d3d0c9;
+	background-color: #daddd9;
 	font-family: 'Oxygen', sans-serif;
 }
 
@@ -11,23 +11,41 @@ h1, h2, h3, h4, h5, h6 {
   padding:0;
 }
 
-.navbar {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color: #d6c59a;
-  font-size: 36px;
-	font-family: 'Hammersmith One', sans-serif;
+.clear {
+  clear: all;
 }
 
-.navbar-light .navbar-text {
-  color: #1c840b;
+.navbar-brand {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 32px;
 }
 
-.navbar-text {
-  display: inline-block;
-  padding-top: .425rem;
-  padding-bottom: .425rem;
+.navbar-light a.navbar-brand {
+  color: #1a700d;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #0f4707;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+  color: #1a700d;
+}
+
+.bg-faded {
+  background-color: #b4dba0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1a700d;
+}
+
+.navbar ul li a {
+  color: #1a700d !important;
+}
+
+.navbar ul li a:hover {
+  color: #0f4707 !important;
 }
 
 .BoxWithShadow {
@@ -41,4 +59,16 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 2px 2px 2px 2px #c6c5c5;
   margin-top: 10px;
   padding-top: 10px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #1a700d;
+  border-color: #1a700d;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #0f4707;
+    border-color: #0f4707; /*set the color you want here*/
 }

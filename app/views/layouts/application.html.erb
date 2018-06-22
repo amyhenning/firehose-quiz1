@@ -9,11 +9,20 @@
   </head>
 
   <body>
-		<nav class="navbar navbar-light bg-light">
-		  <span class="navbar-text">
-		    Colorado Hikes Catalog
-		  </span>
-		</nav>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <%= link_to 'Colorado Hikes Catalog', root_path, class: 'navbar-brand' %>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <%= link_to 'Add a Hike', new_hike_path, class: 'nav-link' %>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
 
     <%= yield %>
   </body>
